@@ -369,8 +369,8 @@ stateDiagram-v2
     
     Idle --> ProcessingQuery: User Query Received
     
-    ProcessingQuery --> SearchingContext: Query Type: RAG
-    ProcessingQuery --> DirectResponse: Query Type: Simple
+    ProcessingQuery --> SearchingContext: RAG Processing
+    ProcessingQuery --> DirectResponse: Simple Processing
     
     SearchingContext --> RetrievingDocs: Search Request
     RetrievingDocs --> BuildingPrompt: Documents Retrieved
