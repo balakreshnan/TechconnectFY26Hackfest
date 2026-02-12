@@ -1,0 +1,17 @@
+agent-framework
+agent-framework-devui
+agent-framework-azure-ai
+openai
+python-dotenv
+uv
+streamlit
+yfinance
+azure-ai-evaluation
+pyrit
+duckdb
+azure-identity
+aiofiles
+agent-framework[viz] --pre
+agent-framework-azure-ai-search --pre
+azure-monitor-opentelemetry
+pysmartthings
