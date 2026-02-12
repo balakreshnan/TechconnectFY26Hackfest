@@ -52,6 +52,8 @@ git clone https://github.com/balakreshnan/TechconnectFY26Hackfest.git
 cd TechconnectFY26Hackfest
 ```
 
+> **Note**: The repository URL uses 'TechconnectFY26Hackfest' (without spaces) as required by GitHub naming conventions.
+
 ### 2. Create a Virtual Environment (Recommended)
 
 ```bash
@@ -243,9 +245,11 @@ gh workflow run "Agent Consumption - Single Environment" --ref main
 curl -X POST \
   -H "Accept: application/vnd.github.v3+json" \
   -H "Authorization: token YOUR_GITHUB_TOKEN" \
-  https://api.github.com/repos/balakreshnan/TechconnectFY26Hackfest/actions/workflows/agent-consumption-single-env.yml/dispatches \
+  https://api.github.com/repos/{owner}/{repo}/actions/workflows/agent-consumption-single-env.yml/dispatches \
   -d '{"ref":"main"}'
 ```
+
+Replace `{owner}` with your GitHub username and `{repo}` with the repository name.
 
 ### Workflow Execution Steps
 
