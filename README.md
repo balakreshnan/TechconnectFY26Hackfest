@@ -52,7 +52,7 @@ git clone https://github.com/balakreshnan/TechconnectFY26Hackfest.git
 cd TechconnectFY26Hackfest
 ```
 
-> **Note**: The repository URL uses 'TechconnectFY26Hackfest' (without spaces) as required by GitHub naming conventions.
+> **Note**: The repository URL uses 'TechconnectFY26Hackfest' (without spaces) for compatibility with URL standards.
 
 ### 2. Create a Virtual Environment (Recommended)
 
@@ -244,7 +244,7 @@ gh workflow run "Agent Consumption - Single Environment" --ref main
 ```bash
 curl -X POST \
   -H "Accept: application/vnd.github.v3+json" \
-  -H "Authorization: token YOUR_GITHUB_TOKEN" \
+  -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
   https://api.github.com/repos/{owner}/{repo}/actions/workflows/agent-consumption-single-env.yml/dispatches \
   -d '{"ref":"main"}'
 ```
@@ -327,7 +327,36 @@ Conducts red team testing to identify potential security and safety vulnerabilit
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions to improve this framework! Here's how you can contribute:
+
+1. **Fork the repository** and create your feature branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+2. **Make your changes** following these guidelines:
+   - Write clear, commented code
+   - Follow existing code style and conventions
+   - Test your changes thoroughly
+   - Update documentation as needed
+
+3. **Commit your changes** with descriptive messages:
+   ```bash
+   git commit -m "Add: brief description of your changes"
+   ```
+
+4. **Push to your fork** and submit a Pull Request:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. **Pull Request Guidelines**:
+   - Provide a clear description of the changes
+   - Reference any related issues
+   - Ensure all tests pass
+   - Wait for review and address feedback
+
+For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
