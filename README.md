@@ -6,6 +6,7 @@ A comprehensive AI Agent Testing & Evaluation Framework for Microsoft Azure AI, 
 
 - [Overview](#overview)
 - [Features](#features)
+- [📚 Documentation](#-documentation)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -30,6 +31,43 @@ This framework provides a complete solution for testing and evaluating Azure AI 
 - 🛡️ **Red Team Testing**: Identify potential security and safety vulnerabilities using PyRIT
 - ☁️ **Azure Integration**: Seamless integration with Azure AI Projects and Azure OpenAI
 - 🔧 **CI/CD Ready**: GitHub Actions workflow for automated testing
+
+## 📚 Documentation
+
+Comprehensive guides and architecture documentation are available in the `docs/` directory:
+
+### Getting Started
+- **[RFP Agent Architecture](./docs/RFP-AGENT-ARCHITECTURE.md)** - Complete architecture overview with Mermaid diagrams including:
+  - Business flow diagrams
+  - Technical architecture
+  - Data flow and agent interaction models
+  - Security architecture
+  - Scalability and performance considerations
+
+### Development Guides
+- **[Creating an RFP Agent](./docs/CREATING-RFP-AGENT.md)** - Step-by-step guide for building an RFP agent:
+  - Azure environment setup
+  - Document preparation and indexing
+  - Agent creation and configuration
+  - Testing and optimization
+  - Best practices and troubleshooting
+
+### Deployment
+- **[CI/CD Deployment Guide](./docs/CICD-DEPLOYMENT-GUIDE.md)** - End-to-end CI/CD setup for agentic AI applications:
+  - Multi-environment deployment (Dev/Staging/Production)
+  - GitHub Actions workflows
+  - Automated testing and evaluation
+  - Security scanning with PyRIT
+  - Blue-green and canary deployment strategies
+  - Monitoring and observability setup
+
+### Quick Links
+```
+docs/
+├── RFP-AGENT-ARCHITECTURE.md      # Architecture & diagrams
+├── CREATING-RFP-AGENT.md          # Agent development guide
+└── CICD-DEPLOYMENT-GUIDE.md       # CI/CD setup & deployment
+```
 
 ## Prerequisites
 
